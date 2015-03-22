@@ -17,7 +17,7 @@ public class Client extends JFrame{
 	
 	//constructor
 	public Client(String host){
-		super("Client");
+		super("Instant Messenger");
 		serverIP = host;
 		userText = new JTextField();
 		userText.setEditable(false);
