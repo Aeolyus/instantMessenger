@@ -75,7 +75,7 @@ public class Client extends JFrame{
 				showMessage("\n Message not readable");
 			}
 			
-		}while(!message.equals("SERVER - END"));
+		}while(!message.equals("SERVER - /END"));
 	}
 	
 	//close the streams and sockets
